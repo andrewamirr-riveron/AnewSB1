@@ -1,0 +1,2846 @@
+<transactionForm scriptid="custform_89_721807_986" standard="STANDARDOPPORTUNITY">
+  <name>EM Opportunity</name>
+  <recordType>OPPORTUNITY</recordType>
+  <inactive>F</inactive>
+  <preferred>T</preferred>
+  <storedWithRecord>T</storedWithRecord>
+  <mainFields>
+    <fieldGroup scriptid="primaryinformation">
+      <label>Primary Information</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>CUSTOMFORM</id>
+          <label>Custom Form</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>TRANID</id>
+          <label>Opportunity #</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>TITLE</id>
+          <label>Title</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>ENTITY</id>
+          <label>Company</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>SALESREP</id>
+          <label>Sales Rep</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>PARTNER</id>
+          <label>Partner</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>ENTITYSTATUS</id>
+          <label>Status</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>PROBABILITY</id>
+          <label>Probability</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>EXPECTEDCLOSEDATE</id>
+          <label>Expected Close</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>CLOSEDATE</id>
+          <label>Actual Close</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>T</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>ACTIONITEM</id>
+          <label>Action Item</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>WINLOSSREASON</id>
+          <label>Win/Loss Reason</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+      <fields position="BOTTOM">
+        <field>
+          <id>MEMO</id>
+          <label>Details</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>TRANSACTIONNUMBER</id>
+          <label>Transaction Number</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>GENERATETRANIDONSAVE</id>
+          <label>Generate Document Number on Save</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>UNCHECKED</checkBoxDefault>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="forecasting">
+      <label>Forecasting</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>PROJECTEDTOTAL</id>
+          <label>Projected Total</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>RANGELOW</id>
+          <label>Range</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>RANGEHIGH</id>
+          <label>To</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>T</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>FORECASTTYPE</id>
+          <label>Forecast Type</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>WEIGHTEDTOTAL</id>
+          <label>Weighted Total</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="classification">
+      <label>Classification</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>SUBSIDIARY</id>
+          <label>Subsidiary</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>DEPARTMENT</id>
+          <label>Department</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>CLASS</id>
+          <label>Class</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>LOCATION</id>
+          <label>Location</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="intercompanymanagement">
+      <label>Intercompany Management</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+    </fieldGroup>
+    <fieldGroup scriptid="fieldgroup_1_721807_337">
+      <label>Project Information</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>[scriptid=custbody_em_project_location]</id>
+          <label>Project Location</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_project_volume]</id>
+          <label>Project Volume</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_project_status]</id>
+          <label>Project Status</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbodygasprod]</id>
+          <label>Gas Prod Month</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="fieldgroup_2_721807_915">
+      <label>Transaction Information</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>[scriptid=custbody_fin_buy_or_sale]</id>
+          <label>Buy or Sale</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_agreement_type]</id>
+          <label>Agreement Type</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_thirdparty_broker]</id>
+          <label>3rd Party Broker</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_thirdparty_brokerage_fee]</id>
+          <label>3rd Party Brokerage Fee</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_prepay_required]</id>
+          <label>Prepay Required</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody1]</id>
+          <label>Payment Terms</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="fieldgroup_3_721807_631">
+      <label>Management Approval</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>[scriptid=custbody_em_opp_legal_approval]</id>
+          <label>Management Approval</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="fieldgroup_4_721807_458">
+      <label>Accounting Review</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>F</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>[scriptid=custbody_em_accounting_approval]</id>
+          <label>Approval Status</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_opp_terms_reviewed]</id>
+          <label>Terms Reviewed</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_opp_address_reviewed]</id>
+          <label>Address Reviewed</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_opp_items_reviewed]</id>
+          <label>Items Reviewed</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_crm_vendor]</id>
+          <label>CRM Vendor</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_purchase_order]</id>
+          <label>Purchase Order</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_sales_order]</id>
+          <label>Sales Order</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <defaultFieldGroup>
+      <fields position="MIDDLE">
+        <field>
+          <id>ONETIME</id>
+          <label>One Time</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>RECURWEEKLY</id>
+          <label>Weekly</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>RECURMONTHLY</id>
+          <label>Monthly</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>RECURQUARTERLY</id>
+          <label>Quarterly</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>RECURANNUALLY</id>
+          <label>Annually</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_esc_last_modified_date]</id>
+          <label>Last Modified Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_esc_created_date]</id>
+          <label>Created Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_esc_campaign_category]</id>
+          <label>Campaign Category</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_4599_sg_import_permit_num]</id>
+          <label>Import Permit No.</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_document_date]</id>
+          <label>Document Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_my_import_declaration_num]</id>
+          <label>Import Declaration No.</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_jrn_reversal_date]</id>
+          <label>Reversal Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_jrn_reversal_no]</id>
+          <label>Reversal Number</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_company]</id>
+          <label>Lease Company</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_contractnum]</id>
+          <label>Lease Contract Number</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_assetdesc]</id>
+          <label>Asset Description</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_startdate]</id>
+          <label>Lease Start Date</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_financelease]</id>
+          <label>Finance Lease</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_assetprop]</id>
+          <label>Asset Proposal</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_asset]</id>
+          <label>Asset</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_totalleasepayment]</id>
+          <label>Total Lease Payment</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_totalnpv]</id>
+          <label>Total NPV</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_totalleaseliab]</id>
+          <label>Total Lease Liability</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_totalinterest]</id>
+          <label>Total Interest</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_totalprincipal]</id>
+          <label>Total Principal</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_po_sales_rep]</id>
+          <label>Sales Rep</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_contract_exec_dt]</id>
+          <label>Contract Executed Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_agency_appr_dt]</id>
+          <label>Agency Approval Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_po_rejection_reason]</id>
+          <label>Rejection Reason</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_document_date]</id>
+          <label>Source Document Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_so_rejection_reason]</id>
+          <label>Sales Order Rejection Reason</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_created_by_employee]</id>
+          <label>Created by Employee</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_createdfrom_expensify]</id>
+          <label>Created From (2)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_credit_desc]</id>
+          <label>Credit Description</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_opp_expiration_date]</id>
+          <label>Opportunity Expiration Date</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fin_expense_approver]</id>
+          <label>Expense Approver (Custom)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_rentalfreq]</id>
+          <label>Rental Frequency (2)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_term]</id>
+          <label>Lease Term (2)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_annualrate]</id>
+          <label>Annual Interest Rate (2)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_enddate]</id>
+          <label>Lease End Date (2)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_fam_lp_journal]</id>
+          <label>Transaction (2)</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_2663_reference_num]</id>
+          <label>ACH/EFT Reference No.</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_9997_is_for_ep_eft]</id>
+          <label>For Electronic Bank Payment</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_11724_pay_bank_fees]</id>
+          <label>Vendor Bank Fees</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>DISABLED</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_contact_field]</id>
+          <label>External Contact Approver</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_em_option_type]</id>
+          <label>Option Type</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=custbody_element_approval_checkbox]</id>
+          <label>PO Approval</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+        <field>
+          <id>[scriptid=custbody_15699_exclude_from_ep_process]</id>
+          <label>Exclude from Electronic Bank Payments Processing</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+          <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+        </field>
+      </fields>
+    </defaultFieldGroup>
+  </mainFields>
+  <tabs>
+    <tab>
+      <id>TRANSACTIONITEMS</id>
+      <label>Items</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>CURRENCY</id>
+              <label>Currency</label>
+              <visible>T</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>EXCHANGERATE</id>
+              <label>Exchange Rate</label>
+              <visible>T</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>ITEM</id>
+          <label>Items</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+          <columns>
+            <column>
+              <id>JOB</id>
+              <label>Project</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>ITEM</id>
+              <label>Item</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>QUANTITYAVAILABLE</id>
+              <label>Available</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>AVERAGECOST</id>
+              <label>Average Cost</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>LASTPURCHASEPRICE</id>
+              <label>Last Purchase Price</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>QUANTITYONHAND</id>
+              <label>On Hand</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>QUANTITY</id>
+              <label>Quantity</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>UNITS</id>
+              <label>Units</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>DESCRIPTION</id>
+              <label>Description</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>RATE</id>
+              <label>Rate</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>AMOUNT</id>
+              <label>Amount</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>TAXCODE</id>
+              <label>Tax Code</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>TAXRATE1</id>
+              <label>Tax Rate</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>TAXRATE2</id>
+              <label>PST</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>GROSSAMT</id>
+              <label>Gross Amt</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>TAX1AMT</id>
+              <label>Tax Amt</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>OPTIONS</id>
+              <label>Options</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>EXPECTEDSHIPDATE</id>
+              <label>Expected Ship Date</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>COSTESTIMATETYPE</id>
+              <label>Cost Estimate Type</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>COSTESTIMATERATE</id>
+              <label>Est. Unit Cost</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>COSTESTIMATE</id>
+              <label>Est. Extended Cost</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>ESTGROSSPROFIT</id>
+              <label>Est. Gross Profit</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>ESTGROSSPROFITPERCENT</id>
+              <label>Est. Gross Profit Percent</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_nondeductible_account]</id>
+              <label>Expense Account</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_statistical_value]</id>
+              <label>Statistical Value</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_5892_eutriangulation]</id>
+              <label>EU Triangulation</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_expense_code_of_supply]</id>
+              <label>Code of Supply</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_statistical_procedure_sale]</id>
+              <label>Statistical Procedure for Sales</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_statistical_procedure_purc]</id>
+              <label>Statistical Procedure for Purchases</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_emirate]</id>
+              <label>Emirate</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_counterparty_vat]</id>
+              <label>Counterparty VAT Number</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_sii_annual_prorate]</id>
+              <label>Annual Prorate</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_sii_service_date]</id>
+              <label>Service Date</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_sii_exempt_line_details]</id>
+              <label>Details of subject and exempt line</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_establishment_code]</id>
+              <label>Establishment Code</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_far_trn_relatedasset]</id>
+              <label>Related Asset</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol1]</id>
+              <label>Biomethane Job</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_fin_exclude_from_1099]</id>
+              <label>Exclude from 1099</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>DEPARTMENT</id>
+              <label>Department</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>LOCATION</id>
+              <label>Location</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>CLASS</id>
+              <label>Class</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_fin_delivery_date]</id>
+              <label>Delivery Date</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[type=transactioncolumncustomfield, scriptid=csegac_project_name]</id>
+              <label>Project Name Code</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[type=transactioncolumncustomfield, scriptid=csegac_project_type]</id>
+              <label>Project Type</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_registry_project_id]</id>
+              <label>Registry Project ID</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcolac_3rd_party_brokerage_rate]</id>
+              <label>3rd Party Brokerage Rate</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcolname]</id>
+              <label>Name</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_fin_sales_order]</id>
+              <label>Sales Order</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_fin_subsidiary]</id>
+              <label>Subsidiary</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_expense_url]</id>
+              <label>Receipt URL</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_inventory_quantity]</id>
+              <label>Inventory Quantity</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_inventory_item]</id>
+              <label>Inventory Item</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_inventorty_rate]</id>
+              <label>Inventory Rate</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_inventory_amount]</id>
+              <label>Inventory Amount</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_2663_eft_file_format]</id>
+              <label>EFT File Format (2)</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_9997_dd_file_format]</id>
+              <label>DD File Format</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_tss_location_url_of_aws]</id>
+              <label>Location Url</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_tss_line_unique_key_ts]</id>
+              <label>Line Unique Key</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_tss_skydoc_upload]</id>
+              <label>SkyDoc Upload</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_tss_skydoc_file]</id>
+              <label>SkyDoc File</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_tss_aws_s3_files]</id>
+              <label>Aws Ids</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_reiumbursable_espense]</id>
+              <label>Reimbursable Expense</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_vintage]</id>
+              <label>Vintage</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_zianet_state]</id>
+              <label>Zianet State</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_inventory_source]</id>
+              <label>Inventory Source</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_opp_entity]</id>
+              <label>Inventory Source Customer/Vendor</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_sales_landed_cost]</id>
+              <label>Landed Cost</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_dispenser]</id>
+              <label>Dispenser</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_in_kind]</id>
+              <label>In Kind</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_dispenser_name]</id>
+              <label>Dispenser Name</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_consignment_value]</id>
+              <label>Consignment Value</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_9572_eft_entitybank_sub]</id>
+              <label>EFT Entity Bank Subsidiary</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_9572_eft_entitybank_format]</id>
+              <label>EFT Entity Bank Format</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_abi_oxygendealid]</id>
+              <label>Oxygen Deal ID</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_corsia_eligible]</id>
+              <label>Corsia Eligible</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_registry_name]</id>
+              <label>Registry Name</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_jurisdiction]</id>
+              <label>Jurisdiction</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_framework_type]</id>
+              <label>Framework Type</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_registry_project_name]</id>
+              <label>Registry Project Name</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_9572_dd_entitybank_format]</id>
+              <label>DD Entity Bank Format</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_9572_dd_entitybank_sub]</id>
+              <label>DD Entity Bank Subsidiary</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_9572_dd_file_format]</id>
+              <label>Direct Debit File Format</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_inventorylotnumberforopp]</id>
+              <label>Inventory/Lot Number</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_consignment_price]</id>
+              <label>Consignment Unit Price</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_em_consignment_amt]</id>
+              <label>Consignment Amount</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_abi_actualized]</id>
+              <label>Actualized</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_abi_enddate]</id>
+              <label>End Date</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_abi_startdate]</id>
+              <label>Start Date</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_abi_oxygengroupid]</id>
+              <label>Oxygen Group ID</label>
+              <visible>T</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_abi_oxygenidentifier]</id>
+              <label>Oxygen Line Identifier</label>
+              <visible>F</visible>
+            </column>
+            <column>
+              <id>[scriptid=custcol_anew_bill_lot_number]</id>
+              <label>Inventory Lot Number (Test)</label>
+              <visible>F</visible>
+            </column>
+          </columns>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>TRANSACTIONRELATIONSHIPS</id>
+      <label>Relationships</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>CRMCONTACTS</id>
+          <label>Contacts</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>COMPETITORS</id>
+          <label>Competitors</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>TRANSACTIONCOMMUNICATION</id>
+      <label>Communication</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>MESSAGES</id>
+          <label>Messages</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>ACTIVITIES</id>
+          <label>Activities</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>EVENTS</id>
+          <label>Events</label>
+          <visible>F</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>TASKS</id>
+          <label>Tasks</label>
+          <visible>F</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>CALLS</id>
+          <label>Phone Calls</label>
+          <visible>F</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>MEDIAITEM</id>
+          <label>Files</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>USERNOTES</id>
+          <label>User Notes</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>TRANSACTIONADDRESS</id>
+      <label>Address</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>BILLADDRESSLIST</id>
+              <label>Bill To Select</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>BILLADDRESS</id>
+              <label>Bill To</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>SHIPADDRESSLIST</id>
+              <label>Ship To Select</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>SHIPADDRESS</id>
+              <label>Ship To</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>TRANSACTIONSALES</id>
+      <label>Sales</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>LEADSOURCE</id>
+              <label>Lead Source</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems>
+        <subTab>
+          <id>TEAMSELLING</id>
+          <label>Sales Team</label>
+          <visible>F</visible>
+          <fieldGroups>
+            <defaultFieldGroup/>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+        <subList>
+          <id>SALESTEAM</id>
+          <label>Sales Team</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subTab>
+          <id>TRANSACTIONQUALIFICATION</id>
+          <label>Qualification</label>
+          <visible>T</visible>
+          <fieldGroups>
+            <defaultFieldGroup>
+              <fields position="MIDDLE">
+                <field>
+                  <id>ESTIMATEDBUDGET</id>
+                  <label>Estimated Budget</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>T</quickAdd>
+                </field>
+                <field>
+                  <id>ISBUDGETAPPROVED</id>
+                  <label>Budget Approved</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>T</quickAdd>
+                </field>
+                <field>
+                  <id>SALESREADINESS</id>
+                  <label>Sales Readiness</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>T</quickAdd>
+                </field>
+                <field>
+                  <id>BUYINGTIMEFRAME</id>
+                  <label>Buying Time Frame</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>T</quickAdd>
+                </field>
+                <field>
+                  <id>BUYINGREASON</id>
+                  <label>Buying Reason</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>T</quickAdd>
+                </field>
+              </fields>
+            </defaultFieldGroup>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+        <subList>
+          <id>ESTIMATES</id>
+          <label>Estimates</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>CLOSED</id>
+          <label>Closed Transactions</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>TRANSACTIONACCOUNTING</id>
+      <label>Accounting</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>VATREGNUM</id>
+              <label>Tax ID</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>TAXTOTAL</id>
+              <label>Tax</label>
+              <visible>T</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>T</quickAdd>
+            </field>
+            <field>
+              <id>BALANCE</id>
+              <label>Balance</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>UNBILLEDORDERS</id>
+              <label>Unbilled Orders</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+          <fields position="BOTTOM">
+            <field>
+              <id>TOTALCOSTESTIMATE</id>
+              <label>Est. Extended Cost</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>ESTGROSSPROFIT</id>
+              <label>Est. Gross Profit</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>ESTGROSSPROFITPERCENT</id>
+              <label>Est. Gross Profit Percent</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>TRANSACTIONSYSTEMINFORMATION</id>
+      <label>System Information</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>TRANDATE</id>
+              <label>Date Created</label>
+              <visible>T</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>DAYSOPEN</id>
+              <label>Days Open</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>T</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>SYSTEMNOTES</id>
+          <label>System Notes</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>ACTIVEWORKFLOWS</id>
+          <label>Active Workflows</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+        <subList>
+          <id>WORKFLOWHISTORY</id>
+          <label>Workflow History</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>CUSTOM</id>
+      <label>Custom</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_auto_create_vendor_process]</id>
+              <label>Auto Create Vendor</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_em_cash_forecast_blanket]</id>
+              <label>Cash Forecast Blanket</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbodyco2_job]</id>
+              <label>CO2 Job</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_specdeprjrn_rate]</id>
+              <label>Rate (2)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_specdeprjrn_limit]</id>
+              <label>Limit (2)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_specdeprjrn_term1]</id>
+              <label>Applied Term 1 (2)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_specdeprjrn_term2]</id>
+              <label>Applied Term 2 (2)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_specdeprjrn_shortage]</id>
+              <label>Shortage</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_abi_related_opportunity]</id>
+              <label>Related Opportunity</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[type=transactionbodycustomfield, scriptid=csegac_project_name]</id>
+              <label>Project Name Code</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[type=transactionbodycustomfield, scriptid=csegac_project_type]</id>
+              <label>Project Type</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_pstrateroundoff]</id>
+              <label>PST Rate Roundoff</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>[scriptid=custtab_31_5435884_159]</id>
+      <label>Posting Reference</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_fam_lp_rightofuse]</id>
+              <label>Right-of-Use Asset</label>
+              <visible>F</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_lp_leaseliability]</id>
+              <label>Lease Liability</label>
+              <visible>F</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_lp_intexpense]</id>
+              <label>Interest Expense</label>
+              <visible>F</visible>
+              <mandatory>T</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_fam_lp_gainonmod]</id>
+              <label>Gain (Loss) on Modification</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>[scriptid=custtab_16_3776644_208]</id>
+      <label>Tax Reporting</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_adjustment_journal]</id>
+              <label>Adjustment Journal</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_transaction_region]</id>
+              <label>Region of Origin</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_nondeductible_ref_tran]</id>
+              <label>Transactions with Non-Deductible Tax</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_nexus_notc]</id>
+              <label>Nexus NOTC</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_delivery_terms]</id>
+              <label>Delivery Terms</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_notc]</id>
+              <label>Nature of Transaction Code</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_4110_customregnum]</id>
+              <label>Customs Registration Number</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_nondeductible_ref_genjrnl]</id>
+              <label>Non-Deductible Adjustment Journal</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_nondeductible_processed]</id>
+              <label>Non-Deductible Tax Adjusted</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_mode_of_transport]</id>
+              <label>Mode of Transport</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_regime_code_of_supply]</id>
+              <label>Regime Code of Supply</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_cash_register]</id>
+              <label>Cash Register</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_date_of_taxable_supply]</id>
+              <label>Date of Taxable Supply</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_itr_doc_number]</id>
+              <label>Document Number</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_refno_originvoice]</id>
+              <label>Reference No. of Original Invoice</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_counterparty_vat]</id>
+              <label>Counterparty VAT Number</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>[scriptid=custtab_2_3838944_108]</id>
+      <label>Spain SII Reporting</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_sii_spcl_scheme_code_sales]</id>
+              <label>Special Scheme Code or Effect on Invoices Issued</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_spcl_scheme_code_purchase]</id>
+              <label>Special Scheme Code or Effect on Invoices Received</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_property_location]</id>
+              <label>Property Location</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_land_register]</id>
+              <label>Land register/Cadaster reference</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_is_third_party]</id>
+              <label>Issued By Third Party</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_exempt_details]</id>
+              <label>Details of subject and exempt transactions</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_intra_txn_type]</id>
+              <label>Intra-community Transaction Type</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_orig_invoice]</id>
+              <label>Original Invoice</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_registration_status]</id>
+              <label>Registration Status</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_registration_code]</id>
+              <label>Registration Code</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_correction_type]</id>
+              <label>Correction Type</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_ref_no]</id>
+              <label>Reference No.</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_orig_bill]</id>
+              <label>Original Bill</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_received_inv_type]</id>
+              <label>Received Invoice Type</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_operation_date]</id>
+              <label>Operation Date</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_invoice_date]</id>
+              <label>Invoice Date</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_registration_msg]</id>
+              <label>Registration Message</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_issued_inv_type]</id>
+              <label>Issued Invoice Type</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_accounting_date]</id>
+              <label>Accounting Date</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_external_reference]</id>
+              <label>External Reference</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_article_72_73]</id>
+              <label>Simplified Invoice Article 7.2 7.3</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_not_reported_in_time]</id>
+              <label>Billing Record Cannot Be Submitted On Time</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_sii_article_61d]</id>
+              <label>Invoice With No Counterpart Article 6.1.d</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+              <checkBoxDefault>USE_FIELD_DEFAULT</checkBoxDefault>
+            </field>
+            <field>
+              <id>[scriptid=custbody_doc_num_summ_invoice]</id>
+              <label>Last Document Number Of Summary Invoice</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>DISABLED</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>[scriptid=custtab_8_3838944_670]</id>
+      <label>France Tax Reporting</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_establishment_code]</id>
+              <label>Establishment Code</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>DISABLED</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>TRANSACTIONRELATEDRECORDS</id>
+      <label>Related Records</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>CASES</id>
+          <label>Support Cases</label>
+          <visible>T</visible>
+          <neverEmpty>F</neverEmpty>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=custtab_74_721807_177]</id>
+      <label>PDF Information</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_fin_bank_name]</id>
+              <label>Bank Record</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>[scriptid=custtab_9_4533432_230]</id>
+      <label>EFT</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=custbody_9997_pfa_record]</id>
+              <label>PFA Record</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_11187_pref_entity_bank]</id>
+              <label>Preferred Entity Bank</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_11724_bank_fee]</id>
+              <label>Bank Fee</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_15529_vendor_entity_bank]</id>
+              <label>Entity Bank (Vendor)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_15529_emp_entity_bank]</id>
+              <label>Entity Bank (Employee)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=custbody_10184_customer_entity_bank]</id>
+              <label>Entity Bank (Customer)</label>
+              <visible>F</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+  </tabs>
+  <quickViewFields>
+    <field>
+      <id>TITLE</id>
+    </field>
+    <field>
+      <id>PROJECTEDTOTAL</id>
+    </field>
+    <field>
+      <id>EXPECTEDCLOSEDATE</id>
+    </field>
+    <field>
+      <id>ENTITYSTATUS</id>
+    </field>
+    <field>
+      <id>PROBABILITY</id>
+    </field>
+    <field>
+      <id>SALESREP</id>
+    </field>
+    <field>
+      <id>FORECASTTYPE</id>
+    </field>
+  </quickViewFields>
+  <actionbar>
+    <menu>
+      <menuitem>
+        <id>AUTOFILL</id>
+        <label>Auto Fill</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>DELETE</id>
+        <label>Delete</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>EMAIL</id>
+        <label>Email</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>MAKECOPY</id>
+        <label>Make Copy</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>MEMORIZE</id>
+        <label>Memorize</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>NEW</id>
+        <label>New</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>PRINT</id>
+        <label>Print</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>PRINTGLIMPACT</id>
+        <label>Print GL Impact</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>SUBMITNEW</id>
+        <label>Save &amp; New</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>ACTIVITYHISTORY</id>
+        <label>Show Activity</label>
+        <visible>T</visible>
+      </menuitem>
+    </menu>
+  </actionbar>
+  <allowAddMultiple>T</allowAddMultiple>
+  <emailMessageTemplate>USE_DEFAULT</emailMessageTemplate>
+  <linkedForms>
+    <linkedForm>
+      <type>OPPORTUNITY_CASH_SALE_TRANSACTION</type>
+      <form>USE_DEFAULT</form>
+    </linkedForm>
+    <linkedForm>
+      <type>OPPORTUNITY_ESTIMATE_TRANSACTION</type>
+      <form>USE_DEFAULT</form>
+    </linkedForm>
+    <linkedForm>
+      <type>OPPORTUNITY_INVOICE_TRANSACTION</type>
+      <form>USE_DEFAULT</form>
+    </linkedForm>
+    <linkedForm>
+      <type>OPPORTUNITY_SALES_ORDER_TRANSACTION</type>
+      <form>USE_DEFAULT</form>
+    </linkedForm>
+  </linkedForms>
+  <roles>
+    <role>
+      <id>[scriptid=customrole1043]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>ADMINISTRATOR</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>CEO</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>CEO_HANDS_OFF</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>CUSTOMROLE41</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1029]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1045]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1027]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1049]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1042]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1041]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1024]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1051]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1052]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1053]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1044]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1054]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1055]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1030]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1040]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1065]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>FULL_ACCESS</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole_esc_sales_publisher]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>SALES_ADMINISTRATOR</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole_esc_sales_admin]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>SALES_MANAGER</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole_esc_sales_manager]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>SALES_PERSON</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1022]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1032]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole_esc_sales_rep]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>SALES_VICE_PRESIDENT</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1067]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole_ns_taf_cfo]</id>
+      <preferred>F</preferred>
+    </role>
+    <role>
+      <id>[scriptid=customrole1002]</id>
+      <preferred>F</preferred>
+    </role>
+  </roles>
+</transactionForm>
